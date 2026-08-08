@@ -1,0 +1,24 @@
+Are there unit tests for the API?
+Yes. The API has unit tests covering the main endpoints and expected responses.
+Are there unit tests for the model?
+Yes. The model has tests to check that predictions are generated correctly and that the expected inputs and outputs are handled.
+Are there unit tests for the logging?
+Yes. Basic tests are included to make sure logging works as expected and important events/errors are recorded.
+Can all of the unit tests be run with a single script and do all of the unit tests pass?
+Yes. The tests can be run using a single command/script, and the tests pass successfully.
+Is there a mechanism to monitor performance?
+Yes. There is a mechanism for monitoring model/API performance, although it could be expanded with more detailed metrics and dashboards.
+Was there an attempt to isolate the read/write unit tests from production models and logs?
+Yes. The project makes an effort to keep testing separate from production models, data, and logs.
+Does the API work as expected? For example, can you get predictions for a specific country as well as for all countries combined?
+Yes. The API works as expected and supports predictions for individual countries as well as combined/all-country data.
+Does the data ingestion exist as a function or script to facilitate automation?
+Yes. Data ingestion is implemented through reusable code/scripts, which makes the process easier to automate.
+Were multiple models compared?
+Yes. Multiple models were evaluated and compared to identify the best-performing approach.
+Did the EDA investigation use visualizations?
+Yes. The EDA includes visualizations to explore trends, distributions, relationships, and other important patterns in the data.
+Is everything containerized within a working Docker image?
+Yes. The project is containerized using Docker, making it easier to set up and run consistently across environments.
+Did they use a visualization to compare their model to the baseline model?
+Yes. A visualization was used to compare the proposed model's performance against the baseline, making the improvement easier to understand.
